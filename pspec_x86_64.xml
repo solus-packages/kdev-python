@@ -1,0 +1,179 @@
+<PISI>
+    <Source>
+        <Name>kdev-python</Name>
+        <Packager>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Packager>
+        <License>LGPL-2.0</License>
+        <PartOf>programming.tools</PartOf>
+        <Summary xml:lang="en">Python support for KDevelop</Summary>
+        <Description xml:lang="en">KDevelop plugin which provides Python language support.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://solus-project.com/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>kdev-python</Name>
+        <Summary xml:lang="en">Python support for KDevelop</Summary>
+        <Description xml:lang="en">KDevelop plugin which provides Python language support.
+</Description>
+        <PartOf>programming.tools</PartOf>
+        <Files>
+            <Path fileType="library">/usr/lib64/lib*.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/30/kdevpdb.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/30/kdevpythonlanguagesupport.so</Path>
+            <Path fileType="data">/usr/share/kdevappwizard/templates/django_project.tar.bz2</Path>
+            <Path fileType="data">/usr/share/kdevappwizard/templates/qtdesigner_app.tar.bz2</Path>
+            <Path fileType="data">/usr/share/kdevappwizard/templates/simple_pythonapp.tar.bz2</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/codestyle.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/correction_files/matplotlib/_pylab_helpers.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/correction_files/matplotlib/artist.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/correction_files/matplotlib/backend_bases.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/correction_files/matplotlib/figure.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/correction_files/matplotlib/pyplot.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/correction_files/re.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/correction_files/string.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/correction_files/testCorrectionFiles/example.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/debugger/__kdevpython_debugger_utils.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/debugger/kdevpdb.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/COPYING</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/akonadi.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/dnssd.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/kdecore.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/kdeui.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/khtml.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/kio.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/knewstuff.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/kparts.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/kterminal.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/ktexteditor.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/kutils.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/nepomuk.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/parse_xml.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/phonon.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/plasma.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/polkitqt.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/solid.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyKDE4/soprano.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/Qt.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtAssistant.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtCore.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtDBus.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtDeclarative.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtDesigner.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtGui.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtHelp.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtMultimedia.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtNetwork.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtOpenGL.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtScript.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtScriptTools.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtSql.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtSvg.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtTest.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtWebKit.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtXml.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/QtXmlPatterns.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt4/phonon.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QAxContainer.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/Qt.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtBluetooth.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtCore.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtDBus.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtDesigner.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtGui.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtHelp.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtLocation.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtMacExtras.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtMultimedia.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtMultimediaWidgets.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtNetwork.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtNfc.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtOpenGL.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtPositioning.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtPrintSupport.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtQml.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtQuick.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtQuickWidgets.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtSensors.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtSerialPort.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtSql.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtSvg.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtTest.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebChannel.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebEngineWidgets.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebKit.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebKitWidgets.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWebSockets.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWidgets.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtWinExtras.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtX11Extras.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtXml.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/PyQt5/QtXmlPatterns.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/__builtin__.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/__builtin_constants__.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/__builtin_types__.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/__future__.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/_collections.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/_sre.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/array.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/audioop.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/binascii.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/builtindocumentation.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/bz2.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/cPickle.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/cStringIO.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/cmath.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/crypt.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/dbm.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/errno.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/exceptions.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/fcntl.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/future_builtins.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/gc.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/gdbm.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/grp.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/imp.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/io.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/itertools.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/linuxaudiodev.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/marshal.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/math.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/mmap.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/nis.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/numpy.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/operator.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/ossaudiodev.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/parser.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/posix.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/pwd.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/pyexpat.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/readline.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/resource.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/select.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/signal.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/spwd.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/strop.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/sys.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/syslog.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/termios.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/thread.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/time.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/unicodedata.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/zipimport.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/zlib.py</Path>
+            <Path fileType="data">/usr/share/kdevpythonsupport/scripts/introspect.py</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/xdg/kdevpythonsupport.categories</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2018-02-05</Date>
+            <Version>5.2.1</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>peter@solus-project.com</Email>
+        </Update>
+    </History>
+</PISI>

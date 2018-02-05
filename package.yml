@@ -1,0 +1,36 @@
+name       : kdev-python
+version    : 5.2.1
+release    : 1
+source     :
+    - https://download.kde.org/stable/kdevelop/5.2.1/src/kdev-python-5.2.1.tar.xz : 32d663e593ac8c538c101742b2ee838256a7794914d8e0a047ce0d28bafa027b
+license    : LGPL-2.0
+component  : programming.tools
+libsplit   : no
+summary    : Python support for KDevelop
+description: |
+    KDevelop plugin which provides Python language support.
+builddeps  :
+    - pkgconfig(gl)
+    - pkgconfig(python3)
+    - pkgconfig(Qt5Quick)
+    - extra-cmake-modules
+    - grantlee-devel
+    - karchive-devel
+    - kcmutils-devel
+    - kdevelop-devel
+    - kguiaddons-devel
+    - ki18n-devel
+    - kiconthemes-devel
+    - kitemmodels-devel
+    - knewstuff-devel
+    - knotifications-devel
+    - knotifyconfig-devel
+    - ktexteditor-devel
+    - kwindowsystem-devel
+    - threadweaver-devel
+setup      : |
+    %cmake .
+build      : |
+    %make
+install    : |
+    %make_install
