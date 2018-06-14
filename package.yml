@@ -1,8 +1,8 @@
 name       : kdev-python
-version    : 5.2.1
-release    : 1
+version    : 5.2.3
+release    : 2
 source     :
-    - https://download.kde.org/stable/kdevelop/5.2.1/src/kdev-python-5.2.1.tar.xz : 32d663e593ac8c538c101742b2ee838256a7794914d8e0a047ce0d28bafa027b
+    - https://cdn.download.kde.org/stable/kdevelop/5.2.3/src/kdev-python-5.2.3.tar.xz : dcd976f8d3a80c9d2132925cfae5db433b4a5f1c5fa110527eece0a0cdc452c7
 license    : LGPL-2.0
 component  : programming.tools
 libsplit   : no
@@ -29,8 +29,8 @@ builddeps  :
     - kwindowsystem-devel
     - threadweaver-devel
 setup      : |
-    %cmake .
+    %cmake_ninja
 build      : |
-    %make
+    %ninja_build
 install    : |
-    %make_install
+    %ninja_install

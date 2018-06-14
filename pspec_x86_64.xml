@@ -164,13 +164,14 @@
             <Path fileType="data">/usr/share/kdevpythonsupport/documentation_files/zlib.py</Path>
             <Path fileType="data">/usr/share/kdevpythonsupport/scripts/introspect.py</Path>
             <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/metainfo/org.kde.kdev-python.metainfo.xml</Path>
             <Path fileType="data">/usr/share/xdg/kdevpythonsupport.categories</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2018-02-05</Date>
-            <Version>5.2.1</Version>
+        <Update release="2">
+            <Date>2018-06-14</Date>
+            <Version>5.2.3</Version>
             <Comment>Packaging update</Comment>
             <Name>Peter O&apos;Connor</Name>
             <Email>peter@solus-project.com</Email>
