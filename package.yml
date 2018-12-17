@@ -1,8 +1,8 @@
 name       : kdev-python
-version    : 5.2.4
-release    : 3
+version    : 5.3.1
+release    : 4
 source     :
-    - https://cdn.download.kde.org/stable/kdevelop/5.2.4/src/kdev-python-5.2.4.tar.xz : 45394fac8fd6cef6d5dfd310afb6184f71660dbcffeaa7de121f04da2e293eba
+    - https://cdn.download.kde.org/stable/kdevelop/5.3.1/src/kdev-python-5.3.1.tar.xz : 97df0e4889e395ba889197a64a9820128c15b92f487d0884cd05028d45dac2f7
 license    : LGPL-2.0
 component  : programming.tools
 libsplit   : no
@@ -10,7 +10,6 @@ summary    : Python support for KDevelop
 description: |
     KDevelop plugin which provides Python language support.
 builddeps  :
-    - pkgconfig(gl)
     - pkgconfig(python3)
     - pkgconfig(Qt5Quick)
     - extra-cmake-modules
