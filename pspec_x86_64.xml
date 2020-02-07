@@ -2,8 +2,8 @@
     <Source>
         <Name>kdev-python</Name>
         <Packager>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Packager>
         <License>LGPL-2.0</License>
         <PartOf>programming.tools</PartOf>
@@ -22,8 +22,8 @@
             <Path fileType="library">/usr/lib64/libkdevpythoncompletion.so</Path>
             <Path fileType="library">/usr/lib64/libkdevpythonduchain.so</Path>
             <Path fileType="library">/usr/lib64/libkdevpythonparser.so</Path>
-            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/32/kdevpdb.so</Path>
-            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/32/kdevpythonlanguagesupport.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/33/kdevpdb.so</Path>
+            <Path fileType="library">/usr/lib64/qt5/plugins/kdevplatform/33/kdevpythonlanguagesupport.so</Path>
             <Path fileType="data">/usr/share/kdevappwizard/templates/django_project.tar.bz2</Path>
             <Path fileType="data">/usr/share/kdevappwizard/templates/qtdesigner_app.tar.bz2</Path>
             <Path fileType="data">/usr/share/kdevappwizard/templates/simple_pythonapp.tar.bz2</Path>
@@ -203,12 +203,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="11">
-            <Date>2020-01-27</Date>
-            <Version>5.4.5</Version>
+        <Update release="12">
+            <Date>2020-02-07</Date>
+            <Version>5.5.0</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joey Riches</Name>
-            <Email>josephriches@gmail.com</Email>
+            <Name>F. von Gellhorn</Name>
+            <Email>flinux@vongellhorn.ch</Email>
         </Update>
     </History>
 </PISI>

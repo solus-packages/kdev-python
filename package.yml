@@ -1,8 +1,8 @@
 name       : kdev-python
-version    : 5.4.5
-release    : 11
+version    : 5.5.0
+release    : 12
 source     :
-    - https://cdn.download.kde.org/stable/kdevelop/5.4.5/src/kdev-python-5.4.5.tar.xz : a8469886df9a81f3f16db31474a9ed440b1a60224eb28505b5ac63479ad45812
+    - https://cdn.download.kde.org/stable/kdevelop/5.5.0/src/kdev-python-5.5.0.tar.xz : a87cdc7600545866f5e2cec282fcc5543e35d04bc963efada63f392c96e035ef
 license    : LGPL-2.0
 component  : programming.tools
 libsplit   : no
