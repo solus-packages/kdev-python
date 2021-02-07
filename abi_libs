@@ -1,0 +1,5 @@
+kdevpdb.so
+kdevpythonlanguagesupport.so
+libkdevpythoncompletion.so
+libkdevpythonduchain.so
+libkdevpythonparser.so
