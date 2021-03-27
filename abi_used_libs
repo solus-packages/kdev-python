@@ -1,10 +1,10 @@
 UNKNOWN
-libKDevPlatformDebugger.so.55
-libKDevPlatformInterfaces.so.55
-libKDevPlatformLanguage.so.55
-libKDevPlatformOutputView.so.55
-libKDevPlatformSerialization.so.55
-libKDevPlatformUtil.so.55
+libKDevPlatformDebugger.so.56
+libKDevPlatformInterfaces.so.56
+libKDevPlatformLanguage.so.56
+libKDevPlatformOutputView.so.56
+libKDevPlatformSerialization.so.56
+libKDevPlatformUtil.so.56
 libKF5ConfigCore.so.5
 libKF5CoreAddons.so.5
 libKF5I18n.so.5
