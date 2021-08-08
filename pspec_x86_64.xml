@@ -2,8 +2,8 @@
     <Source>
         <Name>kdev-python</Name>
         <Packager>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Packager>
         <License>LGPL-2.0</License>
         <PartOf>programming.tools</PartOf>
@@ -204,12 +204,12 @@
         </Files>
     </Package>
     <History>
-        <Update release="15">
-            <Date>2021-03-27</Date>
+        <Update release="16">
+            <Date>2021-07-29</Date>
             <Version>5.6.2</Version>
             <Comment>Packaging update</Comment>
-            <Name>F. von Gellhorn</Name>
-            <Email>flinux@vongellhorn.ch</Email>
+            <Name>Joey Riches</Name>
+            <Email>josephriches@gmail.com</Email>
         </Update>
     </History>
 </PISI>
