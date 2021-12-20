@@ -1,8 +1,8 @@
 name       : kdev-python
-version    : 5.6.2
-release    : 16
+version    : 21.12.0
+release    : 17
 source     :
-    - https://cdn.download.kde.org/stable/kdevelop/5.6.2/src/kdev-python-5.6.2.tar.xz : 20f9b771b961262ded986a4f32b8d259ad9f7bc48bb29eac0a5d5853be1d917f
+    - https://cdn.download.kde.org/stable/release-service/21.12.0/src/kdev-python-21.12.0.tar.xz : 9dddb76e6d7bb61605839217609cc864b95e8f4524c4f2499f5911c9d76ece0a
 license    : LGPL-2.0
 component  : programming.tools
 summary    : Python support for KDevelop
